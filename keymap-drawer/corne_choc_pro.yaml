@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne_choc_pro, layout_name: default_layout}
 layers:
-  QWERTY: [ESC, Q, W, E, R, T, BRIGHTNESS INC, VOLUME UP, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, BRIGHTNESS DEC, VOLUME DOWN, H, J, K, L, ;, '''', LCTRL, Z, X,
-    C, V, B, N, M, ',', ., /, RIGHT SHIFT, LEFT SHIFT, LGUI, SPACE, RET, SYMBOLS, LALT]
+  QWERTY: [ESC, Q, W, E, R, T, BRIGHTNESS INC, VOLUME UP, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, BRIGHTNESS DEC, VOLUME DOWN, H, J, K, L, ;, '''', LEFT SHIFT, Z,
+    X, C, V, B, N, M, ',', ., /, RIGHT SHIFT, LCTRL, LGUI, SPACE, RET, SYMBOLS, LALT]
   SYMBOLS:
   - '`'
   - '1'
@@ -16,7 +16,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DEL
+  - BACKSPACE
   - TAB
   - '-'
   - '='
@@ -29,9 +29,9 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
   - '&caps_word'
-  - LCTRL
+  - DEL
+  - LEFT SHIFT
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -42,8 +42,8 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR
   - '&sys_reset'
-  - '&bootloader'
-  - LSHIFT
+  - RIGHT SHIFT
+  - LCTRL
   - LGUI
   - SPACE
   - RETURN
