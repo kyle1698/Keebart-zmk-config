@@ -66,10 +66,10 @@
         conditional_layer {
             display-name = "BLUETOOTH";
             bindings = <
-&tog 2  &trans        &trans        &trans        &trans        &trans        &trans      &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans  &trans  &sys_reset
+&trans  &trans        &trans        &trans        &trans        &trans        &trans      &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans  &trans  &sys_reset
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &studio_unlock   &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans                                     &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans        &trans        &trans                                     &trans  &trans  &trans
+                                    &trans        &trans        &tog 2                                     &trans  &trans  &trans
             >;
         };
 
