@@ -50,7 +50,7 @@ layers:
   - {type: held}
   - LALT
   BLUETOOTH:
-  - {t: QWERTY, h: toggle}
+  - {t: BLUETOOTH, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -334,4 +334,4 @@ layers:
 combos:
 - p: [0, 7, 21]
   k: {t: BLUETOOTH, h: toggle}
-  l: [QWERTY, BLUETOOTH]
+  l: [QWERTY]
