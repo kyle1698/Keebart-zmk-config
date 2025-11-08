@@ -532,11 +532,9 @@ path.combo {
 <g transform="translate(30, 643)" class="layer-BLUETOOTH">
 <text x="0" y="28" class="label" id="BLUETOOTH">BLUETOOTH:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 49)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#BLUETOOTH">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">BLUETOOTH</tspan></text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<g transform="translate(28, 49)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(84, 49)" class="key trans keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -711,9 +709,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(350, 215) rotate(24.0)" class="key trans keypos-42">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(350, 215) rotate(24.0)" class="key keypos-42">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
+<a href="#BLUETOOTH">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">BLUETOOTH</tspan></text>
+</a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(490, 215) rotate(-24.0)" class="key trans keypos-43">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
