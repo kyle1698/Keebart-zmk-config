@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne_choc_pro, layout_name: default_layout}
 layers:
   QWERTY: [ESC, Q, W, E, R, T, BRIGHTNESS INC, VOLUME UP, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, BRIGHTNESS DEC, VOLUME DOWN, H, J, K, L, ;, '''', LEFT SHIFT, Z,
-    X, C, V, B, N, M, ',', ., /, LEFT ALT, LCTRL, LGUI, SPACE, RET, SYMBOLS, RIGHT SHIFT]
+    X, C, V, B, N, M, ',', ., /, LEFT ALT, LGUI, LEFT SHIFT, SPACE, RET, SYMBOLS, LCTRL]
   SYMBOLS:
   - '`'
   - '1'
@@ -43,12 +43,12 @@ layers:
   - (
   - )
   - LEFT ALT
-  - LCTRL
   - LGUI
+  - LEFT SHIFT
   - SPACE
   - RETURN
   - {type: held}
-  - RIGHT SHIFT
+  - LCTRL
   BLUETOOTH:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
