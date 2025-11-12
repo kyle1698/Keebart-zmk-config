@@ -49,45 +49,45 @@ layers:
   - LCTRL
   SYMBOLS:
   - '`'
-  - '@'
-  - '%'
+  - '#'
+  - '!'
   - '['
   - ']'
-  - '|'
+  - ^
   - NEXT
   - PLAY PAUSE
-  - +
+  - '-'
   - '7'
   - '8'
   - '9'
-  - /
+  - $
   - BACKSPACE
-  - TAB
-  - '#'
+  - '~'
+  - '%'
   - _
   - (
   - )
-  - '!'
+  - '&'
   - PREVIOUS
   - MUTE
-  - '-'
+  - +
   - '4'
   - '5'
   - '6'
   - '*'
-  - DEL
-  - LCTRL
-  - $
-  - ^
+  - '='
+  - '@'
+  - <
+  - '>'
   - '{'
   - '}'
-  - '&'
+  - '|'
   - '0'
   - '1'
   - '2'
   - '3'
-  - '='
-  - LEFT ALT
+  - /
+  - \
   - LGUI
   - {t: SYSTEM, type: held}
   - SPACE
@@ -101,7 +101,7 @@ layers:
   - F4
   - F5
   - F6
-  - PAGE UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -114,9 +114,9 @@ layers:
   - LEFT SHIFT
   - LGUI
   - LEFT ALT
+  - DELETE
   - {t: ▽, type: trans}
-  - PAGE DOWN
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
@@ -129,9 +129,9 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
   - RGB TOG
-  - '&studio_unlock'
+  - PAGE DOWN
+  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
