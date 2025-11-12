@@ -49,11 +49,11 @@ layers:
   - LCTRL
   SYMBOLS:
   - '`'
-  - '!'
+  - '@'
   - '%'
   - '['
   - ']'
-  - '@'
+  - '|'
   - NEXT
   - PLAY PAUSE
   - +
@@ -63,11 +63,11 @@ layers:
   - /
   - BACKSPACE
   - TAB
-  - '&'
+  - '#'
   - _
   - (
   - )
-  - '#'
+  - '!'
   - PREVIOUS
   - MUTE
   - '-'
@@ -77,11 +77,11 @@ layers:
   - '*'
   - DEL
   - LCTRL
-  - '|'
+  - $
   - ^
   - '{'
   - '}'
-  - $
+  - '&'
   - '0'
   - '1'
   - '2'
@@ -89,12 +89,12 @@ layers:
   - '='
   - LEFT ALT
   - LGUI
-  - {t: FUNCTIONS, type: held}
+  - {t: SYSTEM, type: held}
   - SPACE
   - {t: RETURN, h: LEFT SHIFT}
-  - FUNCTIONS
+  - SYSTEM
   - LCTRL
-  FUNCTIONS:
+  SYSTEM:
   - F1
   - F2
   - F3
@@ -109,29 +109,29 @@ layers:
   - F10
   - F11
   - F12
+  - '&caps_word'
+  - LCTRL
+  - LEFT SHIFT
+  - LGUI
   - LEFT ALT
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - HOME
+  - END
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - PAGE DOWN
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RGB TOG
   - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - END
-  - PRINTSCREEN
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
