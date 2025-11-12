@@ -43,8 +43,8 @@ layers:
   - LEFT ALT
   - LGUI
   - SYMBOLS
-  - {t: SPACE, h: LEFT SHIFT}
-  - RET
+  - SPACE
+  - {t: RETURN, h: LEFT SHIFT}
   - SYMBOLS
   - LCTRL
   SYMBOLS:
@@ -89,10 +89,10 @@ layers:
   - {t: ▽, type: trans}
   - LEFT ALT
   - LGUI
-  - {type: held}
-  - {t: SPACE, h: LEFT SHIFT}
-  - RETURN
-  - {t: ▽, type: trans}
+  - {t: FUNCTIONS, type: held}
+  - SPACE
+  - {t: RETURN, h: LEFT SHIFT}
+  - FUNCTIONS
   - LCTRL
   FUNCTIONS:
   - F1
@@ -139,9 +139,5 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&sys_reset'
-combos:
-- p: [41, 44]
-  k: FUNCTIONS
-  l: [QWERTY, SYMBOLS, FUNCTIONS]
