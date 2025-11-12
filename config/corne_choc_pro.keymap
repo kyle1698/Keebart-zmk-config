@@ -48,20 +48,20 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp EXCL  &kp PERCENT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT      &kp C_NEXT      &kp C_PLAY_PAUSE  &kp PLUS               &kp N7        &kp N8        &kp N9        &kp SLASH  &kp BACKSPACE
-&kp TAB    &kp AMPS  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND   &kp C_PREVIOUS  &kp C_MUTE        &kp MINUS              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTRK  &kp DEL
-&kp LCTRL  &kp PIPE  &kp CARET       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR                                    &kp N0                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp LEFT_ALT
-                                     &kp LGUI              &mo 2                  &kp SPACE                                     &mt LEFT_SHIFT RETURN  &mo 2         &kp LCTRL
+&kp GRAVE  &kp AT      &kp PERCENT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE   &kp C_NEXT      &kp C_PLAY_PAUSE  &kp PLUS               &kp N7        &kp N8        &kp N9        &kp SLASH  &kp BACKSPACE
+&kp TAB    &kp HASH    &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL   &kp C_PREVIOUS  &kp C_MUTE        &kp MINUS              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTRK  &kp DEL
+&kp LCTRL  &kp DOLLAR  &kp CARET       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPS                                     &kp N0                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp LEFT_ALT
+                                       &kp LGUI              &mo 2                  &kp SPACE                                    &mt LEFT_SHIFT RETURN  &mo 2         &kp LCTRL
             >;
         };
 
         lower_layer_2 {
-            display-name = "FUNCTIONS";
+            display-name = "SYSTEM";
             bindings = <
-&kp F1        &kp F2        &kp F3        &kp F4           &kp F5        &kp F6        &kp PAGE_UP    &trans  &kp F7  &kp F8           &kp F9          &kp F10  &kp F11  &kp F12
-&kp LEFT_ALT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &kp PAGE_DOWN  &trans  &trans  &rgb_ug RGB_TOG  &studio_unlock  &trans   &trans   &trans
-&trans        &kp HOME      &kp END       &kp PRINTSCREEN  &kp LEFT_ALT  &trans                               &trans  &trans           &trans          &trans   &trans   &trans
-                                          &bt BT_CLR       &trans        &trans                               &trans  &trans           &sys_reset
+&kp F1      &kp F2        &kp F3          &kp F4        &kp F5        &kp F6        &kp PAGE_UP    &trans  &kp F7          &kp F8           &kp F9          &kp F10          &kp F11   &kp F12
+&caps_word  &kp LCTRL     &kp LEFT_SHIFT  &kp LGUI      &kp LEFT_ALT  &trans        &kp PAGE_DOWN  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW    &kp RIGHT_ARROW  &kp HOME  &kp END
+&trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                         &trans          &rgb_ug RGB_TOG  &studio_unlock  &trans           &trans    &trans
+                                          &bt BT_CLR    &trans        &trans                               &trans          &trans           &sys_reset
             >;
         };
     };
