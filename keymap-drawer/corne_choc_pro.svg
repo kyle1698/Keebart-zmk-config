@@ -303,13 +303,13 @@ path.combo {
 </g>
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
-</text>
-</g>
+<a href="#SYMBOLS">
+<text x="0" y="0" class="key tap layer-activator">SYMBOLS</text>
+</a></g>
 <g transform="translate(350, 215) rotate(24.0)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
+<text x="0" y="38" class="key hold"><tspan style="font-size: 70%">LEFT SHIFT</tspan></text>
 </g>
 <g transform="translate(490, 215) rotate(-24.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -324,6 +324,13 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LCTRL</text>
 </g>
+<g class="combo combopos-0">
+<path d="M420,209 l-116,0" class="combo"/>
+<path d="M420,209 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="196" width="28" height="26" class="combo"/>
+<a href="#FUNCTIONS">
+<text x="420" y="209" class="combo tap layer-activator"><tspan style="font-size: 78%">FUNCTIONS</tspan></text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 321)" class="layer-SYMBOLS">
@@ -499,28 +506,33 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LGUI</text>
 </g>
-<g transform="translate(285, 209) rotate(12.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
-</text>
+<g transform="translate(285, 209) rotate(12.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(350, 215) rotate(24.0)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#FUNCTIONS">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">FUNCTIONS</tspan></text>
-</a></g>
+<text x="0" y="0" class="key tap">SPACE</text>
+<text x="0" y="38" class="key hold"><tspan style="font-size: 70%">LEFT SHIFT</tspan></text>
+</g>
 <g transform="translate(490, 215) rotate(-24.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">RETURN</text>
 </g>
-<g transform="translate(555, 209) rotate(-12.0)" class="key held keypos-44">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(555, 209) rotate(-12.0)" class="key trans keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(616, 203)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LCTRL</text>
 </g>
+<g class="combo combopos-0">
+<path d="M420,209 l-116,0" class="combo"/>
+<path d="M420,209 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="196" width="28" height="26" class="combo"/>
+<a href="#FUNCTIONS">
+<text x="420" y="209" class="combo tap layer-activator"><tspan style="font-size: 78%">FUNCTIONS</tspan></text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 643)" class="layer-FUNCTIONS">
@@ -707,12 +719,12 @@ path.combo {
 <tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
 </text>
 </g>
-<g transform="translate(285, 209) rotate(12.0)" class="key trans keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(285, 209) rotate(12.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(350, 215) rotate(24.0)" class="key held keypos-42">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
+<g transform="translate(350, 215) rotate(24.0)" class="key trans keypos-42">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(490, 215) rotate(-24.0)" class="key trans keypos-43">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
@@ -725,6 +737,13 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;sys_reset</tspan></text>
 </g>
+<g class="combo combopos-0">
+<path d="M420,209 l-116,0" class="combo"/>
+<path d="M420,209 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="196" width="28" height="26" class="combo"/>
+<a href="#FUNCTIONS">
+<text x="420" y="209" class="combo tap layer-activator"><tspan style="font-size: 78%">FUNCTIONS</tspan></text>
+</a></g>
 </g>
 </g>
 </svg>
