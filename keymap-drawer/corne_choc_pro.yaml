@@ -42,11 +42,11 @@ layers:
   - /
   - LEFT ALT
   - LGUI
-  - SYMBOLS
+  - LEFT SHIFT
   - SPACE
   - {t: RETURN, h: LEFT SHIFT}
   - SYMBOLS
-  - LCTRL
+  - SYSTEM
   SYMBOLS:
   - '`'
   - '#'
@@ -89,11 +89,11 @@ layers:
   - /
   - \
   - LGUI
-  - {t: SYSTEM, type: held}
+  - LEFT SHIFT
   - SPACE
   - {t: RETURN, h: LEFT SHIFT}
-  - SYSTEM
-  - LCTRL
+  - {type: held}
+  - {t: ▽, type: trans}
   SYSTEM:
   - F1
   - F2
@@ -134,10 +134,10 @@ layers:
   - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
